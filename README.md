@@ -83,5 +83,25 @@ We are starting with exercise 1 where we setup the opencv in my macbook.
     I further added a else block to see if the videoCapture is not sucessful than gracefully through cerr as it is. 
 
 ### Exercise 3:
+Write a C++ program that does the following (NO imread or webcams allowed):
 
+1. Creates a cv::Mat that is exactly 500 pixels high and 500 pixels wide.
+
+2. It must be a 3-channel color image (CV_8UC3).
+
+3. Initialize the entire matrix to be pure Blue.
+
+4. Display the generated image in a window called "Synthetic Vision", wait for a key press, and then cleanly exit.
     
+### Exercise 4:
+Write a C++ program that:
+
+1. Creates a synthetic black image (CV_8UC3) that is 800 pixels wide and 600 pixels high.
+
+2. Draws a green crosshair exactly in the center of the image. (A crosshair is just two lines: one horizontal, one vertical, intersecting in the middle).
+
+3. Draws a red rectangle (a bounding box) somewhere in the top right quadrant of the screen.
+
+4. Overlays the text "TARGET DETECTED" in white just above or inside the red rectangle.
+
+5. Displays the HUD and waits for a key press to exit.
