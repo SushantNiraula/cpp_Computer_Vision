@@ -1,0 +1,3 @@
+/home/sushant/dev/cpp_Computer_Vision/exercise_4/build/CMakeFiles/HUDDisplaysushant.dir
+/home/sushant/dev/cpp_Computer_Vision/exercise_4/build/CMakeFiles/edit_cache.dir
+/home/sushant/dev/cpp_Computer_Vision/exercise_4/build/CMakeFiles/rebuild_cache.dir

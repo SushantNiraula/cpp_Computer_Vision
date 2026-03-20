@@ -6,7 +6,7 @@ project(ManualMemory)
 # Require C++ 14 or higher (standard for modern OpenCV)
 set(CMAKE_CXX_STANDARD 14)
 
-# Find the OpenCV package installed by Homebrew
+# Find the OpenCV package installed 
 find_package(OpenCV REQUIRED)
 
 # Tell CMake to include the OpenCV header directories
