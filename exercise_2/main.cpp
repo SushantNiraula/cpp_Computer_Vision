@@ -3,21 +3,17 @@
 
 int main(){
     cv::VideoCapture cap(0);
+    if (!cap.isOpened()) {
+        std::cerr << "Error: Could not open the webcam feed!!" << std::endl;
+        return -1; // Exit immediately
+    }
     cv::Mat frame;
-    if (cap.isOpened()){
-        while (true){
-            cap>>frame;
-            cv::imshow("webcam-feed", frame);
-
-            //Wait 1 millisecond for user input. If 'q' is pressed, break the loop.
-            if (cv::waitKey(1)=='q') { 
-            break;
-            }
-        }
+    while (true) {
+        cap >> frame;
+        cv::imshow("webcam-feed", frame);
+        if (cv::waitKey(1) == 'q') break;
     }
-    else{
-        std::cerr<<"Couldnot open the webcam feed !!"<<std::endl;
-        return -1;
-    }
+    cap.release(); // Explicitly release hardware resources (Good practice)
+    cv::destroyAllWindows(); // Clean up GUI memory
     return 0;
 }

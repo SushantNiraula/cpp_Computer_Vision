@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sushantniraula/cpp_cv/exercise_2/main.cpp" "CMakeFiles/WebcamFeedTest.dir/main.cpp.o" "gcc" "CMakeFiles/WebcamFeedTest.dir/main.cpp.o.d"
+  "/home/sushant/dev/cpp_Computer_Vision/exercise_2/main.cpp" "CMakeFiles/WebcamFeedTest.dir/main.cpp.o" "gcc" "CMakeFiles/WebcamFeedTest.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

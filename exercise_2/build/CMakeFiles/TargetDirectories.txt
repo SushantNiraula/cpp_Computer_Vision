@@ -1,3 +1,3 @@
-/Users/sushantniraula/cpp_cv/exercise_2/build/CMakeFiles/WebcamFeedTest.dir
-/Users/sushantniraula/cpp_cv/exercise_2/build/CMakeFiles/edit_cache.dir
-/Users/sushantniraula/cpp_cv/exercise_2/build/CMakeFiles/rebuild_cache.dir
+/home/sushant/dev/cpp_Computer_Vision/exercise_2/build/CMakeFiles/WebcamFeedTest.dir
+/home/sushant/dev/cpp_Computer_Vision/exercise_2/build/CMakeFiles/edit_cache.dir
+/home/sushant/dev/cpp_Computer_Vision/exercise_2/build/CMakeFiles/rebuild_cache.dir
